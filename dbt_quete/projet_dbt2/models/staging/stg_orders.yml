@@ -5,5 +5,5 @@ models:
       columns:
         - name: order_id
         - name: customer_id
-        - name: order_date
+        - name: ordered_at
         - name: store_id   
