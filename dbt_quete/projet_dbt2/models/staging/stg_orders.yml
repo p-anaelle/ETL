@@ -7,11 +7,11 @@ models:
           data_tests:
           - not_null
           - unique
-        - name: customer_id
+        - name: cust_id
           data_tests:
           - not_null
           - unique
         - name: ordered_at
           data_tests:
           - not_null
-        - name: store_id 
+        - name: store_id
