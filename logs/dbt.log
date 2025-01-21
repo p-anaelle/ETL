@@ -1,0 +1,26 @@
+[0m17:16:30.239930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a35d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a70770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a70410>]}
+
+
+============================== 17:16:30.243111 | 1165048d-1ae3-4b51-97f7-fd3a3b824b37 ==============================
+[0m17:16:30.243111 [info ] [MainThread]: Running with dbt=1.7.9
+[0m17:16:30.243459 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/anaellepinceloup/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:16:30.243783 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/anaellepinceloup/Documents/GitHub/ETL/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:16:30.245094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086b4a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086b4aa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a70290>]}
+[0m17:16:30.245322 [debug] [MainThread]: Flushing usage events
+[0m17:17:07.597702 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f49010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f6c800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f6c4a0>]}
+
+
+============================== 17:17:07.600693 | 4710180c-b2e3-43ac-86b7-f5d4f28ebea2 ==============================
+[0m17:17:07.600693 [info ] [MainThread]: Running with dbt=1.7.9
+[0m17:17:07.601013 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/anaellepinceloup/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m17:17:07.601317 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/anaellepinceloup/Documents/GitHub/ETL/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:17:07.602574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f6c680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f6e270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f6daf0>]}
+[0m17:17:07.602772 [debug] [MainThread]: Flushing usage events
