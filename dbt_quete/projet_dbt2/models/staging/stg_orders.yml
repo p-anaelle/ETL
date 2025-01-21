@@ -4,14 +4,20 @@ models:
     - name: stg_orders
       columns:
         - name: order_id
+          description: The unique key for each order.
           data_tests:
           - not_null
           - unique
-        - name: cust_id
+        - name: customer_id
+          description: The unique key for each customer.
           data_tests:
           - not_null
           - unique
         - name: ordered_at
+          description: The date and time of the order.
           data_tests:
           - not_null
         - name: store_id
+          description: "{{ doc('store_id_description') }}"
+          data_tests:
+          - not_null
